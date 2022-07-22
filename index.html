@@ -9,6 +9,41 @@
     <title>Managing landing page</title>
 </head>
 <body>
-  <h1 class="text-3xl">Hello world</h1>
+    <nav class="relative container mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <div class="pt-2">
+                <img src="images/logo.svg" />
+            </div>
+
+            <div class="hidden space-x-6 md:flex">
+                <a class="hover:text-darkGrayishBlue" href="#">Pricing</a>
+                <a class="hover:text-darkGrayishBlue" href="#">Product</a>
+                <a class="hover:text-darkGrayishBlue" href="#">About us</a>
+                <a class="hover:text-darkGrayishBlue" href="#">Careers</a>
+                <a class="hover:text-darkGrayishBlue" href="#">Community</a>
+            </div>
+
+            <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container flex flex-col-reverse  items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Bring everyone together to build better products
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Manage makes it simple for software teams to plan day-to-day tasks
+                    while keeping the larger team goals in view.</p>
+                <div class="flex hustify-center-md:justify-start">
+                    <a href="#" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+                </div>
+            </div>
+
+            <div class="md:w-1/2">
+                <img src="images/illustration-intro.svg" />
+            </div>
+        </div>
+    </section>
 </body>
 </html>
